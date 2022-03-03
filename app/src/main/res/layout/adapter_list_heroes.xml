@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+              android:layout_height="wrap_content" android:orientation="horizontal" android:layout_margin="16dp">
+    <ImageView
+            android:contentDescription="test"
+            tools:ignore="ImageContrastCheck" android:layout_width="80dp" android:layout_height="120sp"
+            tools:srcCompat="@tools:sample/avatars" android:id="@+id/imageViewHero"/>
+    <LinearLayout android:layout_width="match_parent" android:layout_height="match_parent"
+                  android:orientation="vertical">
+        <TextView android:layout_width="match_parent" android:layout_height="wrap_content"
+                  android:id="@+id/textViewName" android:text="TextView" android:layout_weight="1"
+                  android:textAlignment="center" android:textSize="24sp"/>
+        <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:text="TextView"
+                  android:id="@+id/textViewOwner" android:textAlignment="textEnd"/>
+    </LinearLayout>
+</LinearLayout>
